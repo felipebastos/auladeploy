@@ -10,3 +10,6 @@ def herlenistalisson():
 def marilaquissandra():
     return 'mais uma vez'
 
+@app.get('/nova')
+def nova():
+    return 'nova'
