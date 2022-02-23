@@ -10,3 +10,6 @@ def herlenistalisson():
 def marilaquissandra():
     return 'mais uma vez'
 
+@app.get('/frasedodia')
+def backmelhorquefront():
+    return 'Athos é muito lindo!'
