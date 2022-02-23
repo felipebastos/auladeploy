@@ -7,5 +7,5 @@ def herlenistalisson():
     return 'Valeu! Falou!'
 
 @app.get('/pink')
-def jardiscleudsonisson():
+def marilaquissandra():
     return 'E o cerebro'
