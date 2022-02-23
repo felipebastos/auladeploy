@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.get('/')
-def garisbalderson():
+def herlenistalisson():
     return 'Valeu! Falou!'
 
 @app.get('/pink')
