@@ -8,4 +8,4 @@ def herlenistalisson():
 
 @app.get('/pink')
 def jardiscleudsonisson():
-    return 'E o cerebro'
+    return 'mais uma vez'
