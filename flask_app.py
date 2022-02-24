@@ -2,14 +2,17 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.get('/')
+
+@app.get("/")
 def herlenistalisson():
-    return 'Valeu! Falou!'
+    return "Valeu! Falou!"
 
-@app.get('/pink')
+
+@app.get("/pink")
 def marilaquissandra():
-    return 'mais uma vez'
+    return "mais uma vez"
 
-@app.get('/nova')
+
+@app.get("/nova")
 def nova():
-    return 'nova'
+    return "nova"

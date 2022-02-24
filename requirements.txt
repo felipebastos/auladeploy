@@ -4,3 +4,6 @@ itsdangerous==2.1.0
 Jinja2==3.0.3
 MarkupSafe==2.1.0
 Werkzeug==2.0.3
+pytest==7.0.1
+pytest-cov==3.0.0
+black==22.1.0
