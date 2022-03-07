@@ -1,6 +1,10 @@
 from flask import Flask, render_template
 
+import auth
+
 app = Flask(__name__)
+
+app.register_blueprint(auth.bp)
 
 
 @app.get("/")
@@ -13,6 +17,6 @@ def marilaquissandra():
     return "mais uma vez"
 
 
-@app.get("/nova")
+@app.get("/maisum")
 def nova():
-    return "nova"
+    return "Forcei a barra"
