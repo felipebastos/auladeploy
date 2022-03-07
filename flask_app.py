@@ -1,11 +1,11 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 
 @app.get("/")
 def herlenistalisson():
-    return "Valeu! Falou!"
+    return render_template("index.html")
 
 
 @app.get("/pink")

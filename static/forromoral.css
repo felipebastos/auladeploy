@@ -1,0 +1,10 @@
+div.cabecalho {
+    font-size: 5em;
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align: center;
+}
+
+div.texto {
+    font-size: 2em;
+}
